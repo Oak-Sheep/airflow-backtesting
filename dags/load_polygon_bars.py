@@ -12,7 +12,7 @@ from airflow.providers.postgres.hooks.postgres import PostgresHook
 
 default_args = {
     "owner": "airflow",
-    "start_date": datetime(2023, 1, 20),
+    "start_date": datetime.now(),
     "retries": 1,
 }
 

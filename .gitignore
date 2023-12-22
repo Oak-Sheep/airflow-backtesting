@@ -1,2 +1,6 @@
 venv/
 .env
+config/
+logs/
+plugins/
+__pycache__/
