@@ -5,7 +5,7 @@ down:
 	@docker compose down
 	@echo "Completed."
 	@echo "Removing previous session's PostgreSQL data..."
-	@docker volume rm dune_postgres-db-volume
+	@docker volume rm airflow-backtesting_postgres-db-volume
 	@echo "Completed."
 
 init:
