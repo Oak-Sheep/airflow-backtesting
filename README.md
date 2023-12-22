@@ -9,13 +9,15 @@ Architecture:
 ![Alt text](/diagram/airflow_backtesting.png)
 
 Launch service:
-```sudo make init
+```
+sudo make init
 make up
 ```
 
-Shutdown service:```make down```
-
-
+Shutdown service:
+```
+make down
+```
 
 ENV variables are required:
 - `AIRFLOW_UID`: Идентификатор пользователя Airflow
